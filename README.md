@@ -10,6 +10,10 @@ An Odin Project to complete the SQL-Zoo Tutorials challenges
 
 - Solutions will be save in 10 files base on their section in the tutorials.
 
+## Sections
+
+0. [Select Basic](./0-select-basic.sql)
+
 ## Links
 
 - [Challenge Website](https://sqlzoo.net/wiki/SQL_Tutorial)
