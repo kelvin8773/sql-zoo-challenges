@@ -5,7 +5,7 @@ SELECT name
 FROM world
 WHERE population >= 200000000
 
-SELECT name, gdp/population as 'per capita GDP'
+SELECT name, gdp/population as GDP
 FROM world
 WHERE population >= 200000000
 
@@ -34,9 +34,9 @@ select name, Round(population/1000000,2) as population, Round(gdp/1000000000,2) 
 from world
 where continent = 'South America'
 
-select name, ROUND(gdp/(population*1000))*1000 as 'per-capita GDP'
-from world
-where gdp >= 1000000000000
+SELECT name, ROUND(gdp/(population*1000))*1000 as GDP
+FROM world
+WHERE gdp >= 1000000000000
 
 SELECT name, capital
 FROM world
